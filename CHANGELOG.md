@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ###Added
+
+- `AttributesParameters` class:
+  - `ATTRIBUTES_PARAMETERS` has been added (as an array that contains `AttributesParameters` classes)
+- `AttributesParameters` class has been added:
+  - `VALUE` has been added (as a string)
+  - `LABEL` has been added (as a string)
+  - `POSITION` has been added (as an int)
+
+## [0.6.12] - 2022-03-17
+
+###Added
+
 - `Product` class:
   - `PROMOTIONS` has been added (as an array that contains `Promotion` classes)
 - `Promotion` class has been added:
@@ -237,7 +249,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - CatalogGraphQLClient class with its "find" method
 
-[Unreleased]: https://github.com/ArrowSphere/catalog-graphql-client/compare/0.6.11...HEAD
+[Unreleased]: https://github.com/ArrowSphere/catalog-graphql-client/compare/0.6.12...HEAD
+[0.6.12]: https://github.com/ArrowSphere/catalog-graphql-client/compare/0.6.11...0.6.12
 [0.6.11]: https://github.com/ArrowSphere/catalog-graphql-client/compare/0.6.10...0.6.11
 [0.6.10]: https://github.com/ArrowSphere/catalog-graphql-client/compare/0.6.9...0.6.10
 [0.6.9]: https://github.com/ArrowSphere/catalog-graphql-client/compare/0.6.8...0.6.9
